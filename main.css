@@ -122,7 +122,12 @@ h1, h2, h3, h4, p{
     border-bottom: 10px solid #EDEDED;
 }
 
-.ul:active div{
+.contacts__workhours-subtitle{
+    display: none;
+}
+
+.contacts__workhours-title:hover .contacts__workhours-subtitle{
+    opacity: 1;
     display: block;
 }
 
