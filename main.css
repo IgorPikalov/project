@@ -448,6 +448,7 @@ h1, h2, h3, h4, p{
 
 .socials__item{
     margin-right: 10px;
+    margin-top: 15px;
 }
 
 .socials__item:last-child{
@@ -457,14 +458,26 @@ h1, h2, h3, h4, p{
 .socials__link{
     display: block;
     text-decoration: none;
-    width: 174px;
+    width: 36px;
     height: 36px;
+    background: center center no-repeat;
 }
 
-.socials__icon{
-    margin-top: 15px;
+.socials__item--icom--telegram{
+    background-image: url("./img/telegram.png");
 }
 
+.socials__item--icom--vk{
+    background-image: url("./img/vk\ \(1\).png");
+}
+
+.socials__item--icom--f{
+    background-image: url("./img/f.png");
+}
+
+.socials__item--icom--in{
+    background-image: url("./img/in.png");
+}
 
 /* services page*/
 
