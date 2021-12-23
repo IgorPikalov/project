@@ -464,19 +464,23 @@ h1, h2, h3, h4, p{
 }
 
 .socials__item--icom--telegram{
-    background-image: url("./img/telegram.png");
+    background-image: url("./img/css_sprites.png");
+    background-position: -10px -10px;;
 }
 
 .socials__item--icom--vk{
-    background-image: url("./img/vk\ \(1\).png");
+    background-image: url("./img/css_sprites.png");
+    background-position: -66px -10px;
 }
 
 .socials__item--icom--f{
-    background-image: url("./img/f.png");
+    background-image: url("./img/css_sprites.png");
+    background-position: -122px -10px;
 }
 
 .socials__item--icom--in{
-    background-image: url("./img/in.png");
+    background-image: url("./img/css_sprites.png");
+    background-position: -178px -10px;;
 }
 
 /* services page*/
